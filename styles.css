@@ -1,0 +1,193 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./font/Inter\ Web/Inter-Thin") format("woff2"),
+    url("./font/Inter\ Web/Inter-Thin") format("woff");
+}
+
+.page {
+  background-color: #2a2c2f;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Inter";
+  padding-top: 32px;
+}
+
+.header {
+  display: flex;
+}
+
+.header__logo {
+  margin: auto;
+}
+
+.lead {
+  padding-top: 90px;
+}
+
+.lead__title {
+  max-width: 793px;
+  font-size: 96px;
+  line-height: 100px;
+  font-weight: 900;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+
+.lead__subtitle {
+  max-width: 720px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  margin: 32px auto 0;
+  color: white;
+}
+
+.lead__image {
+  max-height: 615px;
+  max-width: 984px;
+  display: flex;
+  margin: 64px auto 0;
+}
+
+.intro {
+  padding-top: 92px;
+  max-width: 785px;
+  padding-left: 148px;
+}
+
+.intro__title {
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  margin: 0;
+
+  /* or 107% */
+
+  color: #ffffff;
+}
+
+.intro__text-quote {
+  max-width: 720px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+.intro__text-author {
+  max-width: 720px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: end;
+  color: #ffffff;
+}
+
+.intro__text {
+  max-width: 720px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.photo-grid {
+  padding-top: 118px;
+  max-width: 1184px;
+  margin: 0 auto 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.places {
+  padding-top: 92px;
+  margin: auto;
+  max-width: 984px;
+}
+
+.place {
+  width: 98%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 40px 48px;
+  padding-bottom: 80px;
+}
+
+.place__title {
+  grid-column: 1 / 2;
+  color: white;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0;
+}
+
+.place__img {
+  min-width: 100%;
+  max-width: 460px;
+  min-height: 100%;
+  max-height: 460px;
+  object-fit: fill;
+  grid-column: 1 / 2;
+  grid-row: span 3;
+}
+
+.place__website {
+  grid-column: 2 / 3;
+  align-self: end;
+
+  margin: 0;
+}
+
+.place__website_url-heading {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  margin: 0;
+}
+
+.place__website_artist {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 8px 0 0 0;
+}
+
+.place__paragraph {
+  grid-column: 2 / 3;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  margin: 0;
+}
+
+.frame {
+  grid-column: 1 / 2;
+  max-width: 248px;
+  background-color: #0278fe;
+  border-radius: 4px;
+}
+
+.frame__title {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
