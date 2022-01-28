@@ -16,7 +16,6 @@
 
 @media screen and (max-width: 535px) {
   .place__button {
-    max-width: 288px;
-    margin: 0 16px;
+    max-width: 535px;
   }
 }

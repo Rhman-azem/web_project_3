@@ -1,5 +1,7 @@
 .lead {
+  max-width: 984px;
   padding-top: 90px;
+  margin: 0 auto 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -10,6 +12,6 @@
 
 @media screen and (max-width: 535px) {
   .lead__subtitle {
-    max-width: 288px;
+    max-width: 535px;
   }
 }

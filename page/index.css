@@ -37,6 +37,12 @@
 @import url(../blocks/place/__website/_url-heading/place__website_url-heading.css);
 
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+
+@import url(../blocks/cover-content/__button-teckets/cover-content__button-tickets.css);
+@import url(../blocks/cover-content/__subtitle/cover-content__subtitle.css);
+@import url(../blocks/cover-content/__title/cover-content__title.css);
+@import url(../blocks/cover-content/cover-content.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__text/footer__text.css);

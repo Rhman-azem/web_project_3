@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 535px) {
   .intro__wrapper {
-    max-width: 288px;
+    max-width: 535px;
     margin: 0 auto 0;
   }
 }

@@ -3,9 +3,3 @@
   align-self: end;
   margin: 0;
 }
-
-@media screen and (max-width: 535px) {
-  .place__website {
-    margin: 0 16px;
-  }
-}
