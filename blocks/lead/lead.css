@@ -1,0 +1,15 @@
+.lead {
+  padding-top: 90px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .lead__subtitle {
+    max-width: 288px;
+  }
+}

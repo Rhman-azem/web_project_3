@@ -1,0 +1,17 @@
+.cover-content__button-tickets {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  max-height: 48px;
+  min-height: 48px;
+  max-width: 137px;
+  background-color: #0278fe;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}

@@ -1,0 +1,22 @@
+.place__button {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  max-height: 48px;
+  min-height: 48px;
+  max-width: 248px;
+  color: white;
+  text-decoration: none;
+  background-color: #0278fe;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 535px) {
+  .place__button {
+    max-width: 288px;
+    margin: 0 16px;
+  }
+}

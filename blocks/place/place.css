@@ -1,0 +1,35 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content min-content 1fr;
+  grid-gap: 40px 48px;
+  grid-template-areas:
+    "title artist"
+    " img    para"
+    "button  para";
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-gap: 46px 28px;
+    grid-template-columns: minmax(auto, 340px) 1fr;
+    padding-bottom: 72px;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .place {
+    margin: auto;
+    grid-gap: 30px;
+    grid-template-columns: 1fr;
+    padding-bottom: 50px;
+    grid-template-areas:
+      "title"
+      "artist"
+      "img"
+      "para"
+      "para"
+      "button";
+  }
+}
