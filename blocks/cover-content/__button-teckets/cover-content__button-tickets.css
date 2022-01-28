@@ -14,4 +14,13 @@
   align-items: center;
   justify-content: center;
   border-radius: 4px;
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 535px) {
+  .cover-content__button-tickets {
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 22px;
+  }
 }

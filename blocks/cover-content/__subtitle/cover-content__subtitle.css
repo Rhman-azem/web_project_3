@@ -7,4 +7,12 @@
   line-height: 22px;
   color: #ffffff;
   text-align: center;
+  margin: 0;
+}
+
+@media screen and (max-width: 535px) {
+  .cover-content__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
