@@ -5,7 +5,8 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  margin: 0;
+  margin: 0 16px;
+  font-family: "Inter", Arial, sans-serif;
 }
 @media screen and (max-width: 768px) {
   .place__title {
@@ -14,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 650px) {
   .place__title {
     max-width: 535px;
     font-size: 32px;

@@ -12,10 +12,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.5s ease;
+  font-family: "Inter", Arial, sans-serif;
 }
 
-@media screen and (max-width: 535px) {
+.place__button:hover {
+  background-color: #0063d2;
+}
+
+@media screen and (max-width: 650px) {
   .place__button {
     max-width: 535px;
+    margin: 0 16px;
   }
 }

@@ -1,5 +1,5 @@
 .place__artist {
   grid-area: artist;
   align-self: end;
-  margin: 0;
+  margin: 0 16px;
 }

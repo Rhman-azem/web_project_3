@@ -9,9 +9,8 @@
   }
 }
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 650px) {
   .intro__wrapper {
     max-width: 535px;
-    margin: 0 auto 0;
   }
 }

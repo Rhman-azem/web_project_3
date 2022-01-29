@@ -1,6 +1,6 @@
 .cover {
   max-width: 1184px;
-  max-height: 740px;
+  min-height: 740px;
   background: url(../../images/cover/__background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,20 +13,18 @@
 }
 
 .cover:hover .cover__overlay {
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    max-height: 746px;
     min-height: 746px;
     max-width: 768px;
   }
 }
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 650px) {
   .cover {
-    max-height: 254px;
     min-height: 254px;
     max-width: 535px;
   }

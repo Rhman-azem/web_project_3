@@ -5,6 +5,7 @@
   text-align: center;
   margin: 0 auto;
   color: white;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 @media screen and (max-width: 768px) {
@@ -13,10 +14,11 @@
   }
 }
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 650px) {
   .lead__title {
     max-width: 535px;
     font-size: 40px;
     line-height: 44px;
+    margin: 0 16px;
   }
 }
