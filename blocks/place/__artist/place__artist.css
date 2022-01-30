@@ -1,5 +1,11 @@
 .place__artist {
   grid-area: artist;
   align-self: end;
-  margin: 0 16px;
+  margin: 0;
+}
+
+@media screen and (max-width: 650px) {
+  .place__artist {
+    margin: 0 16px;
+  }
 }

@@ -5,13 +5,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .lead__subtitle {
+  .lead {
     max-width: 720px;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .lead__subtitle {
+  .lead {
     max-width: 535px;
     padding-top: 50px;
   }
